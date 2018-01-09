@@ -42,10 +42,10 @@
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="Steering" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="-45">
+                    <ConfigurableMethodTerminal ConfiguredValue="-40">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="5">
+                    <ConfigurableMethodTerminal ConfiguredValue="4">
                         <Terminal Id="Seconds" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -58,6 +58,17 @@
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="176 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w5" Joints="N(n2:SequenceOut) N(n8:SequenceIn)" />
+                <Comment Bounds="730 -87 514 539" SizeMode="User" AttachStyle="Free">
+                    <Content>Sarah, Adi and Luke,
+
+I would like you guys to first get the basic Flow mission working again.  I tried to put the attachment back to the original state it was in when it was working.  
+
+If you are able to get that mission working again, then go ahead and try to add on the second part of the mission.  
+
+Remember - You don't need a lot of parts! It just needs to be sturdy.
+
+Coach Beale</Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>
