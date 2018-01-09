@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_073_BooleanOperations">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Description />
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="result" DisplayName="result" Direction="Output" Identification="Identification_009_OutputBoolean.png" DataType="Boolean" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>
